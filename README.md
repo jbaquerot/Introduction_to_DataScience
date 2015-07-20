@@ -108,3 +108,7 @@ If you are on OSX, you'll need to know the name of your VM from boot2docker:
 ```
 
 You'll then connect via `http://<ip>`
+
+### Connection Issues:
+
+http://stackoverflow.com/questions/23111631/cannot-download-docker-images-behind-a-proxy
