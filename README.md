@@ -91,11 +91,11 @@ Processor:  Any recent Intel or AMD multicore processor should be sufficient.
 
 We support the following Operating Systems:
 
-64-bit (preferred) Windows 7 or later
-64-bit (preferred) Mac OS X 10.9.5 or later
-64-bit (preferred) Linux (CentOS 6 or later, or Ubuntu 14.04 or later)
-32-bit Windows 7 or later
-32-bit Linux (CentOS 6 or later, or Ubuntu 14.04 or later)
+* 64-bit (preferred) Windows 7 or later
+* 64-bit (preferred) Mac OS X 10.9.5 or later
+* 64-bit (preferred) Linux (CentOS 6 or later, or Ubuntu 14.04 or later)
+* 32-bit Windows 7 or later
+* 32-bit Linux (CentOS 6 or later, or Ubuntu 14.04 or later)
 
 NOTE for Linux users: Based on our testing, please make sure you are using Vagrant 1.7 or newer with Linux. The default Vagrant version packaged with most Linux distributions does not seem to work properly.
 
