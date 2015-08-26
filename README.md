@@ -79,36 +79,33 @@ Machine learning and data mining algorithms; prediction vs. description; explora
 
 
 
-Dockerized Notebook Data Science
-======================
+## Minimun Hardware Requirements
 
-Docker container with Python data science tools (particularly, pandas, numpy, matplotlib, plotly, sklearn, scikit-image, nltk, gensim, psycopg2) the IPython notebook (single user). 
+You should use a machine with the following minimum hardware requirements:
 
-## Creating docker image
+Free disk space: 3.5 GB 
+RAM memory: 2.5 GB (4+ GB preferred)
+Processor:  Any recent Intel or AMD multicore processor should be sufficient.
 
-Creating ipython docker image
+## Supported Operating Systems
 
-```
-cd docker
-docker build -t  datascience-base .
-``` 
+We support the following Operating Systems:
 
-## Runing the container
+64-bit (preferred) Windows 7 or later
+64-bit (preferred) Mac OS X 10.9.5 or later
+64-bit (preferred) Linux (CentOS 6 or later, or Ubuntu 14.04 or later)
+32-bit Windows 7 or later
+32-bit Linux (CentOS 6 or later, or Ubuntu 14.04 or later)
 
-```
-cd ..
-docker run -d -p 80:8888 -v "$(PWD)"/data:/workspace/data -v "$(PWD)"/notebooks:/workspace/notebooks/ -e "PASSWORD=<TO_CHANGE>" datascience-base
-```
+NOTE for Linux users: Based on our testing, please make sure you are using Vagrant 1.7 or newer with Linux. The default Vagrant version packaged with most Linux distributions does not seem to work properly.
 
+(Optional) For the best performance with VirtualBox, we recommend using a machine that supports hardware virtualization features: Intel VT-X or AMD AMD-V. Note that on many systems, the hardware virtualization features first need to be enabled in the BIOS before VirtualBox can use them.
 
-If you are on OSX, you'll need to know the name of your VM from boot2docker:
+## Required Software Packages
 
-```
- boot2docker ip
-```
+There are two required free software packages:
 
-You'll then connect via `http://<ip>`
+* Oracle's Virtual Box (https://www.virtualbox.org/)
+* Vagrant automatic VM configuration (https://www.vagrantup.com/)
 
-### Connection Issues:
-
-http://stackoverflow.com/questions/23111631/cannot-download-docker-images-behind-a-proxy
+Note: If you already have either software package installed, makes sure that the versions are VirtualBox 4.3.28 (or later) and Vagrant 1.7.2 (or later).
