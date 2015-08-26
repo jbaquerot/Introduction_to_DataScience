@@ -83,9 +83,9 @@ Machine learning and data mining algorithms; prediction vs. description; explora
 
 You should use a machine with the following minimum hardware requirements:
 
-Free disk space: 3.5 GB 
-RAM memory: 2.5 GB (4+ GB preferred)
-Processor:  Any recent Intel or AMD multicore processor should be sufficient.
+* Free disk space: 3.5 GB 
+* RAM memory: 2.5 GB (4+ GB preferred)
+* Processor:  Any recent Intel or AMD multicore processor should be sufficient.
 
 ### Supported Operating Systems
 
