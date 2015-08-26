@@ -77,9 +77,9 @@ Machine learning and data mining algorithms; prediction vs. description; explora
 * Big Data project management
 
 
+## Hardware and Software Requirements
 
-
-## Minimun Hardware Requirements
+### Minimun Hardware Requirements
 
 You should use a machine with the following minimum hardware requirements:
 
@@ -87,7 +87,7 @@ Free disk space: 3.5 GB
 RAM memory: 2.5 GB (4+ GB preferred)
 Processor:  Any recent Intel or AMD multicore processor should be sufficient.
 
-## Supported Operating Systems
+### Supported Operating Systems
 
 We support the following Operating Systems:
 
@@ -101,7 +101,7 @@ NOTE for Linux users: Based on our testing, please make sure you are using Vagra
 
 (Optional) For the best performance with VirtualBox, we recommend using a machine that supports hardware virtualization features: Intel VT-X or AMD AMD-V. Note that on many systems, the hardware virtualization features first need to be enabled in the BIOS before VirtualBox can use them.
 
-## Required Software Packages
+### Required Software Packages
 
 There are two required free software packages:
 
