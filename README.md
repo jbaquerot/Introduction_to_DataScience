@@ -26,6 +26,12 @@ Machine learning and data mining algorithms; prediction vs. description; explora
 * The importance of understand the business
 * How to understand the business?
 * Tips in developing business knowledge
+ 
+### Introduction to Technologies:
+*	iPython / Jupyter
+*	Pandas (Data Analysis Library for Python)
+*	Apache Spark with Python
+
 
 ### Data Management
 * Getting data from Databases, Text files, MS Excel files, JSON
@@ -58,10 +64,8 @@ Machine learning and data mining algorithms; prediction vs. description; explora
   * Logistic Regression
   * Decision Trees
   * Random Forests
-  * Neural Networks
   * Support Vector Machine
   * K-means
-  * Hierarchical Clustering
 * Aggregation Methods
 
 ### Storytelling
@@ -73,7 +77,6 @@ Machine learning and data mining algorithms; prediction vs. description; explora
 * The origin of Big Data
 * What is Big Data?
 * Introduction to Hadoop HDFS, Map Reduce and Hadoop 2.0
-* Introduction to Apache Spark
 * Big Data project management
 
 
