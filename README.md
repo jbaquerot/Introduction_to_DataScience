@@ -167,7 +167,19 @@ There are two required free software packages:
 * Vagrant automatic VM configuration (https://www.vagrantup.com/)
 
 Note: If you already have either software package installed, makes sure that the versions are VirtualBox 4.3.28 (or later) and Vagrant 1.7.2 (or later).
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+
+### How to prepare your environment
+
+First of all, download the project to your local disk.
+
+Then you have two options:
+* If you don't have the vagrant box file just run in your console
+```vagrant up```
+* If you have the vagran box file (package.box) run in your console
+```vagrant box add jbaquerot/IntroDataScience package.box
+vagrant init jbaquerot/IntroDataScience
+vagrant up```
+
+###How to access to course notebooks
+
+Open a web browser and write: http:\\localhost:8001
