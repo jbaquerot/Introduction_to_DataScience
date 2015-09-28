@@ -174,11 +174,14 @@ First of all, download the project to your local disk.
 
 Then you have two options:
 * If you don't have the vagrant box file just run in your console
+
 ```vagrant up```
+
 * If you have the vagran box file (package.box) run in your console
-```vagrant box add jbaquerot/IntroDataScience package.box
-vagrant init jbaquerot/IntroDataScience
-vagrant up```
+
+```vagrant box add jbaquerot/IntroDataScience package.box```
+```vagrant init jbaquerot/IntroDataScience```
+```vagrant up```
 
 ###How to access to course notebooks
 
