@@ -23,9 +23,13 @@ Vagrant.configure(2) do |config|
       v.name = master.vm.hostname.to_s
       v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
       v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+<<<<<<< Updated upstream
       v.customize ["modifyvm", :id, "--memory", "#{boxRam}"]
       v.customize ["modifyvm", :id, "--cpus", "#{boxCpus}"]
+=======
+>>>>>>> Stashed changes
     end
+
     master.vm.synced_folder "data/", "/home/vagrant/data"
     master.vm.synced_folder "notebooks/", "/home/vagrant/notebooks"
   end
