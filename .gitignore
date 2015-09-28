@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 /.vagrant/*
 /.ipynb_checkpoints/*
+=======
+/.vagrant/
+/.ipynb_checkpoints/
+>>>>>>> origin/master
