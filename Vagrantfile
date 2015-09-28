@@ -24,6 +24,7 @@ Vagrant.configure(2) do |config|
       v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
       v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       v.customize ["modifyvm", :id, "--memory", "#{boxRam}"]
       v.customize ["modifyvm", :id, "--cpus", "#{boxCpus}"]
@@ -31,6 +32,11 @@ Vagrant.configure(2) do |config|
 >>>>>>> Stashed changes
     end
 
+=======
+      v.customize ["modifyvm", :id, "--memory", "#{boxRam}"]
+      v.customize ["modifyvm", :id, "--cpus", "#{boxCpus}"]
+    end
+>>>>>>> origin/master
 =======
       v.customize ["modifyvm", :id, "--memory", "#{boxRam}"]
       v.customize ["modifyvm", :id, "--cpus", "#{boxCpus}"]

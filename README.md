@@ -82,6 +82,7 @@ Machine learning and data mining algorithms; prediction vs. description; explora
 
 ## Hardware and Software Requirements
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Minimun Hardware Requirements
 
@@ -133,6 +134,8 @@ Open a web browser and write: http:\\localhost:8001
 
 
 =======
+=======
+>>>>>>> origin/master
 
 ### Minimun Hardware Requirements
 
@@ -164,4 +167,7 @@ There are two required free software packages:
 * Vagrant automatic VM configuration (https://www.vagrantup.com/)
 
 Note: If you already have either software package installed, makes sure that the versions are VirtualBox 4.3.28 (or later) and Vagrant 1.7.2 (or later).
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
