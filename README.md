@@ -115,7 +115,7 @@ Note: If you already have either software package installed, makes sure that the
 
 ### How to prepare your environment
 
-First of all, download the project to your local disk.
+First of all, download the GitHub project at your local disk.
 
 Then you have two options:
 * If you don't have the vagrant box file just run in your console
@@ -124,7 +124,7 @@ Then you have two options:
 
 * If you have the vagran box file (package.box) run in your console
 
-```vagrant box add jbaquerot/IntroDataScience package.box```
+```vagrant box add jbaquerot/IntroDataScience path_to\package.box```
 
 ```vagrant init jbaquerot/IntroDataScience```
 
